@@ -1,0 +1,12 @@
+;; Object benchmarks
+;; EDE Project Files are auto generated: Do Not Edit
+(ede-proj-project "benchmarks"
+  :file "Project.ede"
+  :name "benchmarks"
+  :targets
+  (list
+    (ede-proj-target-makefile-program "mfault"
+      :name "mfault"
+      :path ""
+      :source '("mfault.c")))
+  :makefile-type 'Makefile.am)
